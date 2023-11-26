@@ -14,6 +14,8 @@ export default function Document(props: Props) {
       <Head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Chatbot UI"></meta>
+        <meta name="robots" content="noindex" />
+        <meta name="robots" content="nofollow" />
       </Head>
       <body>
         <Main />
